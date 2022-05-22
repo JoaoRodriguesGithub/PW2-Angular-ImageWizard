@@ -1,4 +1,9 @@
 # ImageWizard
+Final Angular project for the Web Programming II class @IPCA
+
+On this final class project was proposed to be developed an Angular app for image search engine using Angular with typescript, HTML and CSS with Bootstrap.
+
+#Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
 
