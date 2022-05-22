@@ -1,0 +1,22 @@
+<div class="container-md">
+  <div class="card mb-3" style="max-width: 1080px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img class="img-fluid" [src]="detailedCard.detailImage" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{detailedCard.title}}</h5>
+          <h4 class="card-title">{{detailedCard.author}}</h4>
+          <p class="card-text">{{detailedCard.date}}</p>
+          <button type="button" class="btn btn-danger">Likes{{detailedCard.likes}}</button>
+          <button type="button" class="btn btn-info">Downloads {{detailedCard.downloads}} </button>
+          <button type="button" class="btn btn-light" (click)="favouritesButton(favouriteCardStatus,favouritesIndex)"
+            (click)="favouriteCardStatus =! favouriteCardStatus">{{favouriteCardStatus ? 'Remove' : 'Favourite'
+            }}</button>
+          <p class="card-text">{{detailedCard.tags}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
